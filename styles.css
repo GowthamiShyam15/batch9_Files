@@ -1,0 +1,48 @@
+body{
+    background-image: url("in.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    
+}
+b{
+    color:red;
+}
+i:hover{
+    color:blue;
+    cursor: pointer;
+}
+img{
+    width:150px;
+    height:100px;
+    float:left;
+    margin:20px;
+    opacity:0.5;
+}
+img:hover{
+    opacity:1;
+}
+.i1{
+    margin-right: 30px;
+    border:3px solid green;
+    padding:10px;
+    border-radius: 20px;
+}
+/*unvisited link*/
+a:link{
+    color:green;
+}
+/*visited link */
+a:visited{
+color:red;
+}
+/*active link*/
+a:active{
+    color:blue;
+}
+a:hover{
+    font-size: 20px;
+    background-color: aquamarine;
+    padding:10px;
+
+}

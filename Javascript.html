@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Fundamentals</title>
+</head>
+<body>
+    <h3>Welcome to <span id="i1">HTML</span> Course</h3>
+    <img src="thumbs-up.png" alt="image" id="image1">
+    <button type="submit" onclick="changeText()">Change</button>
+    <button type="submit" ondblclick="changeColor()">Color</button>
+    <button type="submit" onfocus="changeImage()">Change Image</button>
+
+    <script>
+        function changeText(){
+document.getElementById("i1").innerHTML="Javascript"
+        }
+        function changeColor(){
+document.getElementById("i1").style.color="Red";
+        }
+        function changeImage(){
+            document.getElementById('image1').src="input.jpg"
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics_2</title>
+    <style>
+        table{
+            width:50%;
+            text-align: center;
+        }
+        .c1{
+            background-image: url("thumbs-up.png");
+            background-repeat: no-repeat;
+            background-size: 200px 35px;
+        }
+        ul{
+            list-style-image: url("sf1.png");
+        }
+    </style>
+</head>
+<body>
+    <!-- Add video 
+     <video src="_ABC Song_ - Nursery Rhymes.mp4" controls width="400px" height="300px" poster="thumbs-up.png"></video>
+
+    Add youtube videos 
+    
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/e-pj5xaRUY4?si=X3fso8EtdhdNDpyn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+ Add Google maps 
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.5143956963934!2d77.64124010986518!3d12.87461058737948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b28bc433f07%3A0x66126dc77e1226a4!2sWhite%20field!5e0!3m2!1sen!2sin!4v1745648325219!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+     <!-- creating a table -->
+      <table border="2">
+        <!-- rows -->
+         <tr>
+            <!-- Table headings -->
+             <th>Name</th>
+             <th>Age</th>
+             <th>Location</th>
+             <th>Courses</th>
+         </tr>
+         <tr>
+            <!-- columns -->
+             <td>Sai</td>
+             <td>11</td>
+             <td rowspan="2" style="background-color:aqua">Delhi</td>
+             <td rowspan="4">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>React Js</li>
+                </ul>
+             </td>
+         </tr>
+         <tr>
+            <!-- columns -->
+             <td>Ravi</td>
+             <td>10</td>
+            
+         </tr>
+         <tr>
+            <!-- columns -->
+             <td>Mani</td>
+             <td>12</td>
+             <td >Hyderabad</td>
+         </tr>
+         <tr>
+            <!-- columns -->
+             <td><img src="input.jpg" alt="" width="30px" height="30px"></td>
+             <td colspan="2" class="c1"><a href="https://www.youtube.com" target="_blank">Youtube</a></td>
+             
+         </tr>
+
+      </table>
+</body>
+</html>
